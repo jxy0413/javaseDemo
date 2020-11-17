@@ -55,6 +55,12 @@ import java.util.*;
  * 四、LinkedHashMap的底层实现原理（了解）
  *     static class Entry<K,V> extends HashMap.Node<K,V> {
  *         Entry<K,V> before, after;
+ 集合总结
+ 4/100
+ 保存草稿
+ 发布文章
+ weixin_38387008
+ 未选择任何文件
  *         Entry(int hash, K key, V value, Node<K,V> next) {
  *             super(hash, key, value, next);
  *         }
