@@ -11,11 +11,11 @@ import java.io.*;
  * 2、数据的流向：输入流、输出流
  * 3、流的角色：节点流、处理流
  *
- * 抽象基类                                  缓冲流(处理流的一种)
- * InputStream     FileInputStream           BufferedInputStream
- * OutputStream    FileOutputStream          BufferedOutputStream
- * Reader          FileReader                BufferedReader
- * Writer          FileWriter                BufferedWriter
+ * 抽象基类       缓冲流(处理流的一种)
+ * InputStream     FileInputStream  (read(byte[] cubf))         BufferedInputStream
+ * OutputStream    FileOutputStream    (write(byte[] cubf))     BufferedOutputStream
+ * Reader          FileReader (read(char[] cubf))               BufferedReader  readLine
+ * Writer          FileWriter (write(char[] cbuf,0,len))        BufferedWriter
  */
 public class FileReaderWriterTest {
     /**
@@ -134,5 +134,4 @@ public class FileReaderWriterTest {
             }
         }
     }
-
 }
